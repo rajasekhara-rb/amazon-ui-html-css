@@ -246,12 +246,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .nav-bottom ul li {
     list-style: none;
     margin: 0 8px;
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 .nav-bottom ul li a {
@@ -263,6 +264,19 @@ body {
     max-width: 100%;
 }
 
-#bodySec{
-    height: 5050px;
+#bodySecection .sliderSection {
+    width: 100%;
+    position: absolute;
+    top: 109px;
+}
+
+#carouselExample button .carousel-control-prev-icon,
+#carouselExample button .carousel-control-next-icon {
+    position: absolute;
+    bottom: 450px;
+}
+
+#products-cards-section {
+    position: absolute;
+    top: 360px;
 }

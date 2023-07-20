@@ -4,9 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <script src="https://kit.fontawesome.com/b41d379bda.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" importance="high">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
     <title>Amazon UI</title>
 </head>
 
@@ -127,8 +132,104 @@
         </nav>
 
     </header>
-    <section id="bodySec">
+    <section id="bodySecection">
+        <div class="sliderSection">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/slide1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slide2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slide3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slide4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slide5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slide6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
 
+        <div id="products-cards-section" class="products-cards-section">
+            <div class="products-cards-grid">
+                <div class="4-products-card">
+                    <h3 class="card-header">Up to 60% off | Premium diapers & curated toys...</h3>
+                    <div class="sub-products">
+                        <div class="product">
+                            <img src="./images/products/baby1.jpg" alt="card images">
+                            <p>Starting ₹99 | Diapers, wipes & more</p>
+                        </div>
+                        <div class="product">
+                            <img src="./images/products/baby2.jpg" alt="card images">
+                            <p>
+                                Starting ₹229 | Baby products & toys
+                            </p>
+                        </div>
+                        <div class="product">
+                            <img src="./images/products/baby3.jpg" alt="card images">
+                            <p>Starting ₹299 | Indoor games & more</p>
+                        </div>
+                        <div class="product">
+                            <img src="./images/products/baby4.jpg" alt="card images">
+                            <p>
+                                Starting ₹449 | RC cars</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#">See more</a>
+                    </div>
+                </div>
+
+                <div class="1-products-card">
+                    <h3 class="card-header">Up to 70% off | Clearance store</h3>
+                    <div class="sub-products">
+                        <img src="./images/products/store.jpg" alt="">
+                    </div>
+                    <div class="card-footer">
+                        <a href="#">See more</a>
+                    </div>
+                </div>
+
+                <div class="1-products-card">
+                    <h3 class="card-header">Medicines | Up to 30% off</h3>
+                    <div class="sub-products">
+                        <img src="./images/products/medicines.jpg" alt="">
+                    </div>
+                    <div class="card-footer">
+                        <a href="#">Visit the store</a>
+                    </div>
+                </div>
+
+                <div class="signin-ads-bar">
+                    <div class="signin-show">
+                        <h3>Sign in for your best experience</h3>
+                        <button>Sign in securely</button>
+                    </div>
+                    <div class="ads-bar">
+                        <img src="./images/products/ads.jpg" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <script src="script.js"></script>
